@@ -16,8 +16,8 @@ gsap.to("#nav", {
       trigger: "#nav",
       scroller: "body",
       // markers:true,
-      start: "top -5%",
-      end: "top -6%",
+      start: "top ",
+      end: "top -1%",
       scrub: 1,
     },
   });

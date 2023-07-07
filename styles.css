@@ -250,3 +250,29 @@ video {
 .card:hover {
   transform: rotate3d(-1, 1, 0, 20deg);
 }
+#greendiv{
+  height:30vh;
+  /* width:100%; */
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  /* background-color: red; */
+  background: linear-gradient(to left bottom,#119f3a, #ace022);
+}
+#greendiv h4{
+  color: #000;
+  font-size: 20px;
+  font-weight: 900;
+  width:40%;
+  text-align: center;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+#greendiv img{
+  object-fit: cover;
+  height:100%;
+  width:14%;
+}
+#greendiv #first{
+  rotate: 180deg;
+}
